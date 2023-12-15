@@ -9,5 +9,9 @@ This repository contains the code required to run the camera detection and movem
 7. Finally, the detection code will check to see if the object is still in place, and will grade its own progress.
 8. The grading scale is as follows:
    - 100% if the piece has moved (equates to the piece being picked up)
-   - 50% if the blue indicator on the robot body is approximately in line with the piece (but the piece was not successfully picked up)
+   - 50% ("we were close") if the blue indicator on the robot body is approximately in line with the piece (but the piece was not successfully picked up)
    - 0% otherwise
+
+Libraries Required:
+ColorDetection.py -- cv2, time, numpy, paho.mqtt, sys
+finalMain.py -- machine, rp2, sys, time, struct, uasyncio, network, ubinascii, urequests, mqtt (included in repo)
