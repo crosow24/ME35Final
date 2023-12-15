@@ -13,6 +13,5 @@ This repository contains the code required to run the camera detection and movem
    - 0% otherwise
 
 Libraries Required:
-ColorDetection.py -- cv2, time, numpy, paho.mqtt, sys
-
-finalMain.py -- machine, rp2, sys, time, struct, uasyncio, network, ubinascii, urequests, mqtt (included in repo)
+- ColorDetection.py -- cv2, time, numpy, paho.mqtt, sys
+- finalMain.py -- machine, rp2, sys, time, struct, uasyncio, network, ubinascii, urequests, mqtt (included in repo)
